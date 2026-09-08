@@ -87,6 +87,6 @@ optimisation
 **Statistics and machine learning** — statistical modelling, model selection and
 validation, gradient boosting, neural sequence models
 
-**Computational and applied** — Monte Carlo simulation, numerical solution of
-differential equations, finite-element simulation, graph algorithms, derivative
-pricing and risk management
+**Computational and applied** — numerical solution of differential equations,
+finite-element simulation, graph algorithms, derivative pricing and risk
+management
