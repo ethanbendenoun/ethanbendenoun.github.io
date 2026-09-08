@@ -1,0 +1,33 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ---------------------------------------------------------------
+   jekyll-theme-primer, stock, with GitHub blue replaced by the
+   green of the LaTeX CV (#1B6B3A). Everything else is the theme's
+   own typography and spacing.
+   --------------------------------------------------------------- */
+
+.markdown-body a {
+  color: #1B6B3A;
+}
+
+.markdown-body a:hover {
+  color: #124927;
+  text-decoration: underline;
+}
+
+/* Project headings, marked as on the reference page */
+.markdown-body h3::before {
+  content: "\25B8\00a0";
+  color: #1B6B3A;
+}
+
+.markdown-body blockquote {
+  border-left-color: #1B6B3A;
+}
+
+.markdown-body li::marker {
+  color: #1B6B3A;
+}
