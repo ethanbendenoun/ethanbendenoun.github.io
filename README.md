@@ -1,6 +1,6 @@
 # Ethan Ben Denoun
 
-*Applied Mathematics Student | Quantitative Finance*
+*Applied Mathematics Student &#124; Quantitative Finance*
 
 [ethan.ben-denoun@dauphine.eu](mailto:ethan.ben-denoun@dauphine.eu) · [LinkedIn](https://www.linkedin.com/in/ethan-bendenoun-72042b378/) · [GitHub](https://github.com/ethanbendenoun)
 <!-- Uncomment once cv.pdf has been added to this repository: -->
