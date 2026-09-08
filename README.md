@@ -12,22 +12,17 @@ in MPSI and then MP\*.
 My work centres on optimisation, probability and statistics, and on what these
 tools do wherever data meets uncertainty — statistical modelling and machine
 learning, numerical simulation, derivatives pricing and volatility modelling. I
-am looking for a **Summer 2027 internship in applied mathematics, statistics,
-optimisation or quantitative finance**.
+am looking for a **Summer 2027 internship in applied mathematics or
+statistics**.
 
 ## Education
 
 - **2026 –** M1 in Applied Mathematics (*Mathématiques Approfondies*), MIDO
   department, **Université Paris-Dauphine PSL**
 - **2025 – 2026** BSc in Applied Mathematics, third year, MIDO department,
-  Université Paris-Dauphine PSL. GPA 14.2/20, ranked 16 of 136. Coursework in
-  Lebesgue integration and probability, statistical modelling, derivative
-  pricing and risk management, and graph algorithms
+  Université Paris-Dauphine PSL
 - **2022 – 2025** *Classes préparatoires* MPSI then MP\*, Lycée Pasteur,
-  Neuilly-sur-Seine. Admissible to Mines-Ponts and CentraleSupélec; admitted to
-  Centrale Nantes and Centrale Lille
-- **2022** *Baccalauréat* in science, *mention Très Bien* (16.5/20), Lycée
-  Alexandre Dumas, Saint-Cloud
+  Neuilly-sur-Seine
 
 ## Projects
 
@@ -92,10 +87,15 @@ Goal: one sentence stating the problem and why it matters.
 
 Python (NumPy, SciPy, pandas, Matplotlib) · LaTeX · Git
 
-## Interests
+## Topics
 
-- Optimisation
-- Probability and stochastic processes
-- Statistical modelling and machine learning
-- Derivatives and volatility modelling
-- Sports analytics
+**Mathematics** — measure theory and Lebesgue integration, probability and
+stochastic processes, linear algebra and analysis, differential equations,
+optimisation
+
+**Statistics and machine learning** — statistical modelling, model selection and
+validation, gradient boosting, neural sequence models
+
+**Computational and applied** — Monte Carlo simulation, numerical solution of
+differential equations, finite-element simulation, graph algorithms, derivative
+pricing and risk management
