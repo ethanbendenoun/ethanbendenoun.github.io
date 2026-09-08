@@ -4,10 +4,40 @@
 @import "{{ site.theme }}";
 
 /* ---------------------------------------------------------------
-   jekyll-theme-primer, stock, with GitHub blue replaced by the
-   green of the LaTeX CV (#1B6B3A). Everything else is the theme's
-   own typography and spacing.
+   jekyll-theme-primer, with:
+   - GitHub blue replaced by the green of the LaTeX CV (#1B6B3A)
+   - larger type and a narrower measure than the theme's defaults
    --------------------------------------------------------------- */
+
+.container-lg {
+  max-width: 880px;
+}
+
+.markdown-body {
+  font-size: 18.5px;
+  line-height: 1.65;
+}
+
+.markdown-body h1 {
+  font-size: 2.35em;
+  padding-bottom: 0.35em;
+  margin-bottom: 0.55em;
+}
+
+.markdown-body h2 {
+  font-size: 1.55em;
+  padding-bottom: 0.3em;
+  margin-top: 1.9em;
+}
+
+.markdown-body h3 {
+  font-size: 1.2em;
+  margin-top: 1.6em;
+}
+
+.markdown-body li {
+  margin-top: 0.3em;
+}
 
 .markdown-body a {
   color: #1B6B3A;
@@ -30,4 +60,8 @@
 
 .markdown-body li::marker {
   color: #1B6B3A;
+}
+
+@media (max-width: 640px) {
+  .markdown-body { font-size: 17px; }
 }

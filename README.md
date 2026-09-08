@@ -1,19 +1,33 @@
 # Ethan Ben Denoun
 
-*Applied Mathematics Student &#124; Quantitative Finance*
+*Applied Mathematics Student &#124; Statistics, Optimisation & Quantitative Finance*
 
-[ethan.ben-denoun@dauphine.eu](mailto:ethan.ben-denoun@dauphine.eu) · [LinkedIn](https://www.linkedin.com/in/ethan-bendenoun-72042b378/) · [GitHub](https://github.com/ethanbendenoun)
-<!-- Uncomment once cv.pdf has been added to this repository: -->
-<!-- · [CV](https://ethanbendenoun.github.io/cv.pdf) -->
+[ethan.ben-denoun@dauphine.eu](mailto:ethan.ben-denoun@dauphine.eu) · [LinkedIn](https://www.linkedin.com/in/ethan-bendenoun-72042b378/) · [GitHub](https://github.com/ethanbendenoun) · [CV](cv.pdf)
 
 I am a first-year Master's student in Applied Mathematics (*Mathématiques
 Approfondies*) at Université Paris-Dauphine PSL, in the MIDO department. Before
 Dauphine I spent three years in French *classes préparatoires* at Lycée Pasteur,
 in MPSI and then MP\*.
 
-My work centres on optimisation, probability, and their application to the
-pricing of derivatives. I am looking for a **Summer 2027 internship in
-quantitative finance or applied mathematics**.
+My work centres on optimisation, probability and statistics, and on what these
+tools do wherever data meets uncertainty — statistical modelling and machine
+learning, numerical simulation, derivatives pricing and volatility modelling. I
+am looking for a **Summer 2027 internship in applied mathematics, statistics,
+optimisation or quantitative finance**.
+
+## Education
+
+- **2026 –** M1 in Applied Mathematics (*Mathématiques Approfondies*), MIDO
+  department, **Université Paris-Dauphine PSL**
+- **2025 – 2026** BSc in Applied Mathematics, third year, MIDO department,
+  Université Paris-Dauphine PSL. GPA 14.2/20, ranked 16 of 136. Coursework in
+  Lebesgue integration and probability, statistical modelling, derivative
+  pricing and risk management, and graph algorithms
+- **2022 – 2025** *Classes préparatoires* MPSI then MP\*, Lycée Pasteur,
+  Neuilly-sur-Seine. Admissible to Mines-Ponts and CentraleSupélec; admitted to
+  Centrale Nantes and Centrale Lille
+- **2022** *Baccalauréat* in science, *mention Très Bien* (16.5/20), Lycée
+  Alexandre Dumas, Saint-Cloud
 
 ## Projects
 
@@ -82,5 +96,6 @@ Python (NumPy, SciPy, pandas, Matplotlib) · LaTeX · Git
 
 - Optimisation
 - Probability and stochastic processes
+- Statistical modelling and machine learning
 - Derivatives and volatility modelling
 - Sports analytics
