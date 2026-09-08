@@ -4,82 +4,39 @@
 @import "{{ site.theme }}";
 
 /* ---------------------------------------------------------------
-   Base: jekyll-theme-primer (typography and spacing of a GitHub
-   README), with GitHub blue replaced by the green of the LaTeX CV.
-
-   Layout borrowed from kimiandj.github.io: a narrow centred column,
-   a centred header block closed by a single hairline rule, justified
-   body text, and section headings left unruled.
+   jekyll-theme-primer, with:
+   - GitHub blue replaced by the green of the LaTeX CV (#1B6B3A)
+   - larger type and a narrower measure than the theme's defaults
    --------------------------------------------------------------- */
 
 .container-lg {
-  max-width: 720px;
+  max-width: 880px;
 }
 
 .markdown-body {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #111111;
+  font-size: 18.5px;
+  line-height: 1.65;
 }
-
-/* ---- Header block: name, tagline, contact line, all centred ---- */
 
 .markdown-body h1 {
-  font-size: 2.5em;
-  font-weight: 700;
-  text-align: center;
-  border-bottom: none;
-  padding-bottom: 0;
-  margin: 0.6em 0 0.3em;
+  font-size: 2.35em;
+  padding-bottom: 0.35em;
+  margin-bottom: 0.55em;
 }
-
-.markdown-body h1 + p {
-  text-align: center;
-  font-size: 1.02em;
-  margin: 0 0 0.5em;
-}
-
-.markdown-body h1 + p + p {
-  text-align: center;
-  font-size: 0.95em;
-  margin: 0 0 2.2em;
-  padding-bottom: 1.1em;
-  border-bottom: 1px solid #111111;
-}
-
-/* ---- Sections: no rules, space does the separating ---- */
 
 .markdown-body h2 {
-  font-size: 1.45em;
-  font-weight: 700;
-  border-bottom: none;
-  padding-bottom: 0;
-  margin: 2.1em 0 0.7em;
+  font-size: 1.55em;
+  padding-bottom: 0.3em;
+  margin-top: 1.9em;
 }
 
 .markdown-body h3 {
-  font-size: 1.15em;
-  margin-top: 1.7em;
-}
-
-.markdown-body h3::before {
-  content: "\25B8\00a0";
-  color: #1B6B3A;
-}
-
-/* ---- Body copy ---- */
-
-.markdown-body p {
-  text-align: justify;
-  hyphens: auto;
+  font-size: 1.2em;
+  margin-top: 1.6em;
 }
 
 .markdown-body li {
-  margin-top: 0.35em;
-}
-
-.markdown-body li::marker {
-  color: #1B6B3A;
+  margin-top: 0.3em;
 }
 
 .markdown-body a {
@@ -91,11 +48,20 @@
   text-decoration: underline;
 }
 
+/* Project headings, marked as on the reference page */
+.markdown-body h3::before {
+  content: "\25B8\00a0";
+  color: #1B6B3A;
+}
+
 .markdown-body blockquote {
   border-left-color: #1B6B3A;
 }
 
+.markdown-body li::marker {
+  color: #1B6B3A;
+}
+
 @media (max-width: 640px) {
   .markdown-body { font-size: 17px; }
-  .markdown-body p { text-align: left; }
 }
