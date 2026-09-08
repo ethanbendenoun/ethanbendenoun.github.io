@@ -26,18 +26,9 @@ statistics**.
 
 ## Projects
 
-### Optical inference for a transformer — in progress
+### Analogue hardware for neural-network inference — in progress
 
-Running a complete transformer with its matrix multiplications performed
-physically, by light passing through an optical medium and read by a camera —
-not a simulation, and not a single isolated matrix.
-
-- Model: BERT-tiny (4.4M parameters, 2 layers, hidden dimension 128), the
-  smallest complete transformer that still performs a recognisable task
-- Task: SST-2 sentiment classification — deciding whether a film review is
-  positive or negative
-- Target: classify 200 sentences with at least 95% agreement against the same
-  model executed on a CPU
+*An experimental project, currently under way.*
 
 ### Optimising a wireless inductive phone charger — *TIPE*, 2025
 
@@ -85,7 +76,7 @@ Goal: one sentence stating the problem and why it matters.
 
 ## Tools
 
-Python (NumPy, SciPy, pandas, Matplotlib) · LaTeX · Git
+Python (NumPy, SciPy, pandas, Matplotlib) · SQL · OCaml · LaTeX
 
 ## Topics
 
