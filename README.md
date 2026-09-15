@@ -78,15 +78,22 @@ Goal: one sentence stating the problem and why it matters.
 
 Python (NumPy, SciPy, pandas, Matplotlib) · SQL · OCaml · LaTeX
 
-## Topics
+## Coursework
 
-**Mathematics** — measure theory and Lebesgue integration, probability and
-stochastic processes, linear algebra and analysis, differential equations,
-optimisation
+Main topics from *classes préparatoires* (MP, computer-science option) and the
+Dauphine curriculum (L3, then M1 in 2026–2027).
 
-**Statistics and machine learning** — statistical modelling, model selection and
-validation, gradient boosting, neural sequence models
+**Analysis and probability** — Lebesgue integration and probability; discrete
+and continuous stochastic processes; functional analysis and Hilbert spaces;
+differential calculus and ordinary differential equations; introduction to
+partial differential equations; calculus of variations
 
-**Computational and applied** — numerical solution of differential equations,
-finite-element simulation, graph algorithms, derivative pricing and risk
-management
+**Optimisation and modelling** — mathematical and numerical optimisation; game
+theory; derivatives pricing and risk management
+
+**Statistics and learning** — mathematical statistics; statistical modelling;
+non-parametric statistics; machine learning
+
+**Algorithms and computing** — graph algorithms; from the MP computer-science
+option: algorithms and data structures, automata and formal languages, logic,
+programming in OCaml
