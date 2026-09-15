@@ -30,20 +30,22 @@ statistics**.
 
 *An experimental project, currently under way.*
 
-### Optimising a wireless inductive phone charger — *TIPE*, 2025
+### [Optimising a wireless inductive phone charger](https://github.com/ethanbendenoun/tipe-wireless-power-transfer) — *TIPE*, 2025
 
-Two-year research project carried out in *classes préparatoires*: how to
-maximise the efficiency of an inductive charger for a mobile phone.
+Two-year research project in *classes préparatoires*: how to maximise the
+efficiency of an inductive charger for a mobile phone. Notebook with the raw
+measurements, the code and the figures.
 
-- Modelled the magnetic field of the coils, from the infinite-solenoid
-  approximation to the general Biot–Savart case, plotted in Python; flat coils
-  simulated by finite elements with FEMM
-- Measured mutual inductance and the coupling coefficient; derived the transfer
-  function of the resonant coupling and compared theoretical and experimental
-  Bode plots
-- Quantified the effect of coil misalignment, coil separation, and of adding a
-  ferromagnetic material; built a Graetz bridge for rectification and simulated
-  the Qi communication protocol
+- Compared three set-ups experimentally: non-resonant coupling (3.7 % at best),
+  resonant coupling (12.6 % at 29 kHz), and resonant coupling with a
+  ferromagnetic core (97 % at 17 kHz, by the project's definition of efficiency)
+- Quantified the effect of geometry on the resonant set-up: efficiency falls
+  almost linearly with lateral misalignment, and is halved within the first
+  5 mm of separation
+- Modelled the coil field (Biot–Savart, finite elements with FEMM), derived the
+  transfer function of the resonant coupling and compared theoretical and
+  experimental Bode plots; built a Graetz-bridge rectifier and simulated the Qi
+  protocol
 
 ### Origami applied to the folding of road maps — *TIPE*, 2024
 
