@@ -1,8 +1,14 @@
 # Ethan Ben Denoun
 
+<div class="side" markdown="1">
+
 *Applied Mathematics Student &#124; Statistics, Optimisation & Quantitative Finance*
 
 [ethan.ben-denoun@dauphine.eu](mailto:ethan.ben-denoun@dauphine.eu) · [LinkedIn](https://www.linkedin.com/in/ethan-bendenoun-72042b378/) · [GitHub](https://github.com/ethanbendenoun) · [CV](cv.pdf)
+
+</div>
+
+<div class="main" markdown="1">
 
 I am a first-year Master's student in Applied Mathematics (*Mathématiques
 Approfondies*) at Université Paris-Dauphine PSL, in the MIDO department. Before
@@ -14,15 +20,6 @@ tools do wherever data meets uncertainty: statistical modelling and machine
 learning, numerical simulation, derivatives pricing and volatility modelling. I
 am looking for a **Summer 2027 internship in applied mathematics or
 statistics**.
-
-## Education
-
-- **2026 –** M1 in Applied Mathematics (*Mathématiques Approfondies*), MIDO
-  department, **Université Paris-Dauphine PSL**
-- **2025 – 2026** BSc in Applied Mathematics, third year, MIDO department,
-  Université Paris-Dauphine PSL
-- **2022 – 2025** *Classes préparatoires* MPSI then MP\*, Lycée Pasteur,
-  Neuilly-sur-Seine
 
 ## Projects
 
@@ -82,10 +79,6 @@ Goal: one sentence stating the problem and why it matters.
 - Validation: results obtained, and the limitations you are aware of
 -->
 
-## Tools
-
-Python (NumPy, SciPy, pandas, Matplotlib) · SQL · OCaml · LaTeX
-
 ## Coursework
 
 Main topics from *classes préparatoires* (MP, computer-science option) and the
@@ -106,6 +99,24 @@ non-parametric statistics; machine learning
 option: algorithms and data structures, automata and formal languages, logic,
 programming in OCaml
 
+</div>
+
+<div class="side-more" markdown="1">
+
+## Education
+
+- **2026 –** M1 in Applied Mathematics (*Mathématiques Approfondies*), MIDO
+  department, **Université Paris-Dauphine PSL**
+- **2025 – 2026** BSc in Applied Mathematics, third year, MIDO department,
+  Université Paris-Dauphine PSL
+- **2022 – 2025** *Classes préparatoires* MPSI then MP\*, Lycée Pasteur,
+  Neuilly-sur-Seine
+
+## Tools
+
+Python (NumPy, SciPy, pandas, Matplotlib) · SQL · OCaml · LaTeX
+
 ## Beyond mathematics
 
 Karate (black belt, ten years of practice), boxing, weight training.
+</div>

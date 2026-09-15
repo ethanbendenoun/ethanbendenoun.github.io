@@ -6,26 +6,24 @@
 @import "{{ site.theme }}";
 
 /* ---------------------------------------------------------------
-   One typeface, one accent, a 68-character measure, hierarchy by
-   size and space rather than rules.
-   Accent #1B6B3A is the green of the LaTeX CV.
+   Two columns on wide screens: identity, contacts, education and
+   tools on the left; the prose, projects and coursework on the
+   right, kept to a readable measure. One column below 960px.
+   One typeface, one accent (#1B6B3A, the green of the LaTeX CV).
    --------------------------------------------------------------- */
 
 $ink:       #1a1a1a;
 $ink-2:     #5c6166;
 $ink-3:     #8a9096;
-$rule:      #e7e9ec;
 $accent:    #1B6B3A;
 $accent-2:  #124927;
 
-body {
-  background: #ffffff;
-}
+body { background: #ffffff; }
 
 .container-lg {
-  max-width: 680px;
-  padding-left: 24px;
-  padding-right: 24px;
+  max-width: 1180px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .markdown-body {
@@ -33,15 +31,31 @@ body {
   font-size: 17px;
   line-height: 1.65;
   color: $ink;
-  padding-top: 88px;
+  padding-top: 80px;
   padding-bottom: 120px;
   -webkit-font-smoothing: antialiased;
 }
 
-/* ---- Header ---- */
+/* ---- Grid ---- */
+
+@media (min-width: 960px) {
+  .markdown-body {
+    display: grid;
+    grid-template-columns: 340px minmax(0, 1fr);
+    grid-template-rows: auto auto 1fr;
+    column-gap: 88px;
+    align-items: start;
+  }
+  .markdown-body > h1        { grid-column: 1; grid-row: 1; }
+  .markdown-body > .side     { grid-column: 1; grid-row: 2; }
+  .markdown-body > .side-more{ grid-column: 1; grid-row: 3; }
+  .markdown-body > .main     { grid-column: 2; grid-row: 1 / 4; max-width: 720px; }
+}
+
+/* ---- Identity ---- */
 
 .markdown-body h1 {
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.15;
@@ -51,23 +65,25 @@ body {
   margin: 0 0 10px;
 }
 
-.markdown-body h1 + p {
-  font-size: 17px;
+.side p {
+  font-size: 15.5px;
+  line-height: 1.55;
+  margin: 0 0 12px;
+}
+
+.side p:first-child {
   color: $ink-2;
-  margin: 0 0 14px;
 }
 
-.markdown-body h1 + p em {
-  font-style: normal;
-}
+.side p:first-child em { font-style: normal; }
 
-.markdown-body h1 + p + p {
-  font-size: 15px;
+.side p:last-child {
   color: $ink-3;
-  margin: 0 0 56px;
+  font-size: 14.5px;
+  margin-bottom: 0;
 }
 
-.markdown-body h1 + p + p a {
+.side a {
   color: $accent;
   font-weight: 500;
 }
@@ -82,10 +98,19 @@ body {
   color: $ink-3;
   border-bottom: none;
   padding: 0;
-  margin: 72px 0 20px;
+  margin: 64px 0 18px;
 }
 
-.markdown-body h3 {
+.main > p:first-child + p + h2,
+.main h2:first-child { margin-top: 0; }
+
+.side-more h2:first-child { margin-top: 56px; }
+
+/* ---- Main column ---- */
+
+.main p { margin: 0 0 14px; }
+
+.main h3 {
   font-size: 18px;
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -94,41 +119,27 @@ body {
   margin: 40px 0 8px;
 }
 
-.markdown-body h2 + h3 {
-  margin-top: 0;
-}
+.main h2 + h3 { margin-top: 0; }
 
-.markdown-body h3 a {
+.main h3 a {
   color: $ink;
   text-decoration: none;
   border-bottom: 1.5px solid rgba(27, 107, 58, 0.35);
 }
 
-.markdown-body h3 a:hover {
-  color: $accent;
-  border-bottom-color: $accent;
-}
+.main h3 a:hover { color: $accent; border-bottom-color: $accent; }
 
-/* ---- Body copy ---- */
+.main h3 + p { color: $ink-2; font-size: 16px; }
+.main h3 + p em { color: $ink-3; }
 
-.markdown-body p {
-  margin: 0 0 14px;
-}
+/* ---- Side column: compact lists ---- */
 
-.markdown-body h3 + p {
-  color: $ink-2;
-  font-size: 16px;
-}
+.side-more { font-size: 15px; line-height: 1.55; }
+.side-more p { margin: 0 0 12px; color: $ink-2; }
+.side-more li { font-size: 14.5px; }
+.side-more h2 { margin-top: 44px; margin-bottom: 14px; }
 
-.markdown-body h3 + p em {
-  font-style: italic;
-  color: $ink-3;
-}
-
-.markdown-body strong {
-  font-weight: 600;
-  color: $ink;
-}
+/* ---- Lists ---- */
 
 .markdown-body ul {
   list-style: none;
@@ -156,34 +167,20 @@ body {
   opacity: 0.6;
 }
 
-.markdown-body li + li {
-  margin-top: 8px;
-}
+.markdown-body li + li { margin-top: 8px; }
+.markdown-body strong { font-weight: 600; color: $ink; }
+.markdown-body a { color: $accent; text-decoration: none; }
+.markdown-body a:hover { color: $accent-2; text-decoration: underline; }
 
-.markdown-body li strong {
-  color: $ink;
-}
+/* ---- Narrow screens ---- */
 
-.markdown-body a {
-  color: $accent;
-  text-decoration: none;
-}
-
-.markdown-body a:hover {
-  color: $accent-2;
-  text-decoration: underline;
-}
-
-.markdown-body hr {
-  height: 1px;
-  background: $rule;
-  border: 0;
-  margin: 48px 0;
+@media (max-width: 959px) {
+  .side-more h2:first-child { margin-top: 64px; }
 }
 
 @media (max-width: 640px) {
   .container-lg { padding-left: 20px; padding-right: 20px; }
-  .markdown-body { font-size: 16px; padding-top: 48px; padding-bottom: 72px; }
-  .markdown-body h1 { font-size: 28px; }
-  .markdown-body h2 { margin-top: 56px; }
+  .markdown-body { font-size: 16px; padding-top: 44px; padding-bottom: 72px; }
+  .markdown-body h1 { font-size: 27px; }
+  .markdown-body h2 { margin-top: 52px; }
 }
