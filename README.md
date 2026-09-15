@@ -10,7 +10,7 @@ Dauphine I spent three years in French *classes préparatoires* at Lycée Pasteu
 in MPSI and then MP\*.
 
 My work centres on optimisation, probability and statistics, and on what these
-tools do wherever data meets uncertainty — statistical modelling and machine
+tools do wherever data meets uncertainty: statistical modelling and machine
 learning, numerical simulation, derivatives pricing and volatility modelling. I
 am looking for a **Summer 2027 internship in applied mathematics or
 statistics**.
@@ -26,11 +26,7 @@ statistics**.
 
 ## Projects
 
-### Analogue hardware for neural-network inference — in progress
-
-*An experimental project, currently under way.*
-
-### [Optimising a wireless inductive phone charger](https://github.com/ethanbendenoun/tipe-wireless-power-transfer) — *TIPE*, 2025
+### [Optimising a wireless inductive phone charger](https://github.com/ethanbendenoun/tipe-wireless-power-transfer) (TIPE, 2025)
 
 Two-year research project in *classes préparatoires*: how to maximise the
 efficiency of an inductive charger for a mobile phone. Notebook with the raw
@@ -47,25 +43,39 @@ measurements, the code and the figures.
   experimental Bode plots; built a Graetz-bridge rectifier and simulated the Qi
   protocol
 
-### [Origami applied to the folding of road maps](https://github.com/ethanbendenoun/tipe-origami-map-folding) — *TIPE*, 2024
+### [Origami applied to the folding of road maps](https://github.com/ethanbendenoun/tipe-origami-map-folding) (TIPE, 2024)
 
 Which folding pattern is best suited to a road map? Joint work with Giulio
 Follaco. Presentation and comparison table in the repository.
 
 - Studied flat-foldability and the angle conditions that a vertex must satisfy
   for a crease pattern to fold flat
-- Compared three patterns — the classic map fold, the Miura fold, and the
-  Flasher — against three criteria: compactness, ease of deployment, legibility
+- Compared three patterns (the classic map fold, the Miura fold, and the
+  Flasher) against three criteria: compactness, ease of deployment, legibility
 - Measured each one: folded thickness 0.4 / 0.4 / 2.6 cm, folded area
   16.8 / 17.6 / 14.4 cm², 3 / 1 / 1 moves to deploy, 16 / 16 / 44 creases
 
-### Option pricing — in preparation
+### Option pricing (in preparation)
 
-*Analytical Black–Scholes, Monte Carlo with variance reduction, implied
-volatility surface calibration, and autocall payoff valuation.*
+*Analytical Black–Scholes, Monte Carlo with variance reduction, and an implied
+volatility surface calibrated on real option chains.*
+
+### Football match modelling (in preparation)
+
+*Poisson and Dixon–Coles models of match outcomes on open event data,
+calibrated against bookmaker odds with log-loss and Brier score.*
+
+### Supervised learning (in preparation)
+
+*Walk-forward validation, model stacking and SHAP-based interpretation on a
+tabular problem.*
+
+### Analogue hardware for neural-network inference (paused)
+
+*An experimental project, currently on hold.*
 
 <!--
-Project template — copy, uncomment and fill in for each new project.
+Project template: copy, uncomment and fill in for each new project.
 
 ### [Project name](https://github.com/ethanbendenoun/REPO-NAME)
 
@@ -85,18 +95,18 @@ Python (NumPy, SciPy, pandas, Matplotlib) · SQL · OCaml · LaTeX
 Main topics from *classes préparatoires* (MP, computer-science option) and the
 Dauphine curriculum (L3, then M1 in 2026–2027).
 
-**Analysis and probability** — Lebesgue integration and probability; discrete
+**Analysis and probability:** Lebesgue integration and probability; discrete
 and continuous stochastic processes; functional analysis and Hilbert spaces;
 differential calculus and ordinary differential equations; introduction to
 partial differential equations; calculus of variations
 
-**Optimisation and modelling** — mathematical and numerical optimisation; game
+**Optimisation and modelling:** mathematical and numerical optimisation; game
 theory; derivatives pricing and risk management
 
-**Statistics and learning** — mathematical statistics; statistical modelling;
+**Statistics and learning:** mathematical statistics; statistical modelling;
 non-parametric statistics; machine learning
 
-**Algorithms and computing** — graph algorithms; from the MP computer-science
+**Algorithms and computing:** graph algorithms; from the MP computer-science
 option: algorithms and data structures, automata and formal languages, logic,
 programming in OCaml
 
