@@ -70,10 +70,6 @@ calibrated against bookmaker odds with log-loss and Brier score.*
 *Walk-forward validation, model stacking and SHAP-based interpretation on a
 tabular problem.*
 
-### Analogue hardware for neural-network inference (paused)
-
-*An experimental project, currently on hold.*
-
 <!--
 Project template: copy, uncomment and fill in for each new project.
 

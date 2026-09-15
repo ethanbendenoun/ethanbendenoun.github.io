@@ -1,97 +1,189 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 @import "{{ site.theme }}";
 
 /* ---------------------------------------------------------------
-   jekyll-theme-primer, with the green of the LaTeX CV (#1B6B3A)
-   in place of GitHub blue, larger type, a narrower measure and
-   more vertical space than the theme's defaults.
+   One typeface, one accent, a 68-character measure, hierarchy by
+   size and space rather than rules.
+   Accent #1B6B3A is the green of the LaTeX CV.
    --------------------------------------------------------------- */
 
+$ink:       #1a1a1a;
+$ink-2:     #5c6166;
+$ink-3:     #8a9096;
+$rule:      #e7e9ec;
+$accent:    #1B6B3A;
+$accent-2:  #124927;
+
+body {
+  background: #ffffff;
+}
+
 .container-lg {
-  max-width: 800px;
+  max-width: 680px;
   padding-left: 24px;
   padding-right: 24px;
 }
 
 .markdown-body {
-  font-size: 18px;
-  line-height: 1.7;
-  color: #1f2328;
-  padding-top: 40px;
-  padding-bottom: 80px;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  color: $ink;
+  padding-top: 88px;
+  padding-bottom: 120px;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* ---- Header ---- */
 
 .markdown-body h1 {
-  font-size: 2.3em;
-  padding-bottom: 0.35em;
-  margin-bottom: 0.7em;
-  border-bottom-color: #e6e8eb;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: $ink;
+  border-bottom: none;
+  padding: 0;
+  margin: 0 0 10px;
 }
 
 .markdown-body h1 + p {
-  margin-bottom: 0.6em;
+  font-size: 17px;
+  color: $ink-2;
+  margin: 0 0 14px;
+}
+
+.markdown-body h1 + p em {
+  font-style: normal;
 }
 
 .markdown-body h1 + p + p {
-  margin-bottom: 3em;
+  font-size: 15px;
+  color: $ink-3;
+  margin: 0 0 56px;
 }
 
-/* ---- Sections ---- */
+.markdown-body h1 + p + p a {
+  color: $accent;
+  font-weight: 500;
+}
+
+/* ---- Section labels ---- */
 
 .markdown-body h2 {
-  font-size: 1.5em;
-  padding-bottom: 0.35em;
-  margin-top: 3.2em;
-  margin-bottom: 1.3em;
-  border-bottom-color: #e6e8eb;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $ink-3;
+  border-bottom: none;
+  padding: 0;
+  margin: 72px 0 20px;
 }
 
 .markdown-body h3 {
-  font-size: 1.15em;
-  margin-top: 2.4em;
-  margin-bottom: 0.7em;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  color: $ink;
+  margin: 40px 0 8px;
 }
 
 .markdown-body h2 + h3 {
   margin-top: 0;
 }
 
+.markdown-body h3 a {
+  color: $ink;
+  text-decoration: none;
+  border-bottom: 1.5px solid rgba(27, 107, 58, 0.35);
+}
+
+.markdown-body h3 a:hover {
+  color: $accent;
+  border-bottom-color: $accent;
+}
+
 /* ---- Body copy ---- */
 
 .markdown-body p {
-  margin-bottom: 1.25em;
+  margin: 0 0 14px;
+}
+
+.markdown-body h3 + p {
+  color: $ink-2;
+  font-size: 16px;
+}
+
+.markdown-body h3 + p em {
+  font-style: italic;
+  color: $ink-3;
+}
+
+.markdown-body strong {
+  font-weight: 600;
+  color: $ink;
 }
 
 .markdown-body ul {
-  margin-top: 0.8em;
-  margin-bottom: 1.4em;
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 0;
+}
+
+.markdown-body li {
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: $ink-2;
+  position: relative;
+  padding-left: 18px;
+}
+
+.markdown-body li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 0.72em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: $accent;
+  opacity: 0.6;
 }
 
 .markdown-body li + li {
-  margin-top: 0.55em;
+  margin-top: 8px;
 }
 
-.markdown-body li::marker {
-  color: #1B6B3A;
+.markdown-body li strong {
+  color: $ink;
 }
 
 .markdown-body a {
-  color: #1B6B3A;
+  color: $accent;
+  text-decoration: none;
 }
 
 .markdown-body a:hover {
-  color: #124927;
+  color: $accent-2;
   text-decoration: underline;
 }
 
-.markdown-body blockquote {
-  border-left-color: #1B6B3A;
+.markdown-body hr {
+  height: 1px;
+  background: $rule;
+  border: 0;
+  margin: 48px 0;
 }
 
 @media (max-width: 640px) {
-  .markdown-body { font-size: 17px; padding-top: 24px; }
+  .container-lg { padding-left: 20px; padding-right: 20px; }
+  .markdown-body { font-size: 16px; padding-top: 48px; padding-bottom: 72px; }
+  .markdown-body h1 { font-size: 28px; }
+  .markdown-body h2 { margin-top: 56px; }
 }
