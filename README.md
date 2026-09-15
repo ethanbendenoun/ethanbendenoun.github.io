@@ -47,10 +47,10 @@ measurements, the code and the figures.
   experimental Bode plots; built a Graetz-bridge rectifier and simulated the Qi
   protocol
 
-### Origami applied to the folding of road maps — *TIPE*, 2024
+### [Origami applied to the folding of road maps](https://github.com/ethanbendenoun/tipe-origami-map-folding) — *TIPE*, 2024
 
 Which folding pattern is best suited to a road map? Joint work with Giulio
-Follaco.
+Follaco. Presentation and comparison table in the repository.
 
 - Studied flat-foldability and the angle conditions that a vertex must satisfy
   for a crease pattern to fold flat
@@ -99,3 +99,7 @@ non-parametric statistics; machine learning
 **Algorithms and computing** — graph algorithms; from the MP computer-science
 option: algorithms and data structures, automata and formal languages, logic,
 programming in OCaml
+
+## Beyond mathematics
+
+Karate (black belt, ten years of practice), boxing, weight training.
