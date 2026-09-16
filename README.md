@@ -2,7 +2,7 @@
 
 <div class="side" markdown="1">
 
-*Applied Mathematics Student &#124; Statistics, Optimisation & Quantitative Finance*
+*Mathematics Student, Université Paris-Dauphine PSL*
 
 [ethan.ben-denoun@dauphine.eu](mailto:ethan.ben-denoun@dauphine.eu) · [LinkedIn](https://www.linkedin.com/in/ethan-bendenoun-72042b378/) · [GitHub](https://github.com/ethanbendenoun) · [CV](cv.pdf)
 
@@ -10,16 +10,14 @@
 
 <div class="main" markdown="1">
 
-I am a first-year Master's student in Applied Mathematics (*Mathématiques
+I am a first-year Master's student in mathematics (M1 *Mathématiques
 Approfondies*) at Université Paris-Dauphine PSL, in the MIDO department. Before
 Dauphine I spent three years in French *classes préparatoires* at Lycée Pasteur,
 in MPSI and then MP\*.
 
 My work centres on optimisation, probability and statistics, and on what these
 tools do wherever data meets uncertainty: statistical modelling and machine
-learning, numerical simulation, derivatives pricing and volatility modelling. I
-am looking for a **Summer 2027 internship in applied mathematics or
-statistics**.
+learning, numerical simulation, derivatives pricing and volatility modelling.
 
 ## Projects
 
@@ -105,8 +103,8 @@ programming in OCaml
 
 ## Education
 
-- **2026 –** M1 in Applied Mathematics (*Mathématiques Approfondies*), MIDO
-  department, **Université Paris-Dauphine PSL**
+- **2026 –** M1 *Mathématiques Approfondies*, MIDO department,
+  **Université Paris-Dauphine PSL**
 - **2025 – 2026** BSc in Applied Mathematics, third year, MIDO department,
   Université Paris-Dauphine PSL
 - **2022 – 2025** *Classes préparatoires* MPSI then MP\*, Lycée Pasteur,
